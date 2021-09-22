@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+    </ul>
+    <h1>About</h1>
+
+    <table>
+        <caption>Opening hours</caption>
+        <!-- TÁBLÁZAT FEJLÉCE -->
+        <thead>
+            <!-- TABLE HEADER -->
+
+            <!-- OSZLOPOK FEJLÉCE CELLÁK 
+                EZEK IS T-BODY IS KELL TEST AMIBEN AZ ADATOK LESZNEK-->
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+                <!-- T HEADER -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
+                <!-- rowspan kinyújtózik 2 sor magasságig -->
+
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00</td>
+
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">closed</td>
+                <!-- colspan colum kinyújtózik 2 oszlopszélességúre -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- TÁBLÁZAT ÖSSZESÍTÉSE -->
+            <tr>
+                <td>
+                    &copy; 2021
+                </td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+
+</html>
